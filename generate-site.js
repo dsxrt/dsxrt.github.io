@@ -100,10 +100,11 @@ img { max-width: 100%; height: auto; display: block; }
   display: flex; align-items: center; gap: 10px;
 }
 .logo-icon {
-  width: 32px; height: 32px; border-radius: 8px;
-  overflow: hidden; flex-shrink: 0;
+  height: 44px; width: auto; border-radius: 10px;
+  overflow: visible; flex-shrink: 0;
+  display: flex; align-items: center;
 }
-.logo-icon img { width: 100%; height: 100%; object-fit: cover; }
+.logo-icon img { height: 44px; width: auto; object-fit: contain; display: block; }
 .nav-links { display: flex; align-items: center; gap: 28px; }
 .nav-links a {
   font-size: .82rem; font-weight: 500; color: var(--text-2);
