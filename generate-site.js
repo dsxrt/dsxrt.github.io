@@ -106,14 +106,15 @@ img { max-width: 100%; height: auto; display: block; }
   margin-right: 10px;
 }
 .logo-icon img { height: 44px; width: auto; object-fit: contain; display: block; }
-.logo-text-wrap { display: flex; flex-direction: column; }
+.logo-text-wrap { display: flex; }
 .logo-title { white-space: nowrap; line-height: 1.2; }
 .logo-addr {
-  font-size: .62rem; font-weight: 400; color: var(--text-3);
-  line-height: 1.5;
+  font-size: .72rem;
+  font-weight: 400;
+  color: #6d2d07;
 }
-.logo-addr a { color: var(--text-3); }
-.logo-addr a:hover { color: var(--text); }
+.logo-addr a { color: #6d2d07; text-decoration: none; }
+.logo-addr a:hover { color: #111; }
 .nav-links { display: flex; align-items: center; gap: 28px; }
 .nav-links a {
   font-size: .82rem; font-weight: 500; color: var(--text-2);
@@ -608,8 +609,13 @@ function main() {
         <a href="${GITHUB_PAGES_URL || '#'}" class="logo">
             ${meta.siteLogo ? `<div class="logo-icon"><img src="${esc(fixImg(meta.siteLogo, siteUrl))}" alt="${esc(siteName)}"></div>` : ''}
             <div class="logo-text-wrap">
-                <span class="logo-title">${esc(siteName)}</span>
-                <span class="logo-addr">新商城地址：<a href="${siteUrl}" target="_blank" rel="noopener">${esc(siteUrl)}</a></span>
+                <a href="${GITHUB_PAGES_URL || '#'}" class="logo">
+                    <span class="logo-title">${esc(siteName)}</span>
+                    <span class="logo-addr">新商城地址：</span>
+                </a>
+                <a href="${siteUrl}" target="_blank" rel="noopener" class="logo">
+                    <span class="logo-addr">${esc(siteUrl)}</span>
+                </a>
             </div>
         </a>
         <nav class="nav-links">
