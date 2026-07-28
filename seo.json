@@ -1,14 +1,14 @@
 {
   "title": "精选账号商城",
-  "titleSuffix": "Gmail账号 | Google Voice(GV)靓号 | 苹果Apple ID | Telegram账号",
-  "description": "提供优质Google谷歌账号、Gmail邮箱账号、Google Voice谷歌语音电话号(GV)靓号、苹果Apple ID、AppStore账号及Telegram账号出售，同时提供发卡网搭建、图床搭建、域名邮箱部署等服务，一站式解决账号与网站需求，稳定可靠，自动发货，支持长期使用。",
-  "keywords": "Gmail账号,Google Voice,GV靓号,苹果Apple ID,AppStore账号,Telegram账号,发卡网搭建,图床搭建服务,谷歌账号出售,Gmail邮箱,Google Voice靓号",
+  "titleSuffix": "Google Voice · Gmail · Apple ID · 数字账号一站式购齐",
+  "description": "精选高品质数字账号资源。Google Voice 靓号、Gmail 邮箱、Apple ID、Telegram 账号等多品类覆盖，全站自动发货，质保无忧，源头直供。",
+  "keywords": "Google Voice靓号,GV号码,Gmail邮箱,谷歌账号,Apple ID,苹果账号,Telegram账号,数字账号商城,自动发货,图床搭建,发卡网",
   "author": "精选账号商城",
   "robots": "index, follow",
-  "canonical": "https://tinesr.github.io",
+  "canonical": "https://dsxrt.github.io",
   "og": {
     "type": "website",
-    "url": "https://tinesr.github.io",
+    "url": "https://dsxrt.github.io",
     "locale": "zh_CN",
     "siteName": "精选账号商城"
   },
@@ -19,8 +19,8 @@
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "精选账号商城",
-    "description": "提供优质Google谷歌账号、Gmail邮箱账号、Google Voice谷歌语音电话号(GV)靓号、苹果Apple ID、AppStore账号及Telegram账号出售。",
-    "url": "https://tinesr.github.io"
+    "description": "精选高品质数字账号资源。Google Voice 靓号、Gmail 邮箱、Apple ID 等，全站自动发货，质保无忧。",
+    "url": "https://dsxrt.github.io"
   },
-  "favicon": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✨</text></svg>"
+  "favicon": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>"
 }
