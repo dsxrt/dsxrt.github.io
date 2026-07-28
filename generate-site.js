@@ -108,7 +108,7 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .logo-icon img { height: 44px; width: auto; object-fit: contain; display: block; }
 .logo-text-wrap { display: flex; margin-right: auto; }
-.logo-title { white-space: nowrap; line-height: 1.2; }
+.logo-title { white-space: nowrap; line-height: 1.1; margin-right: 5px; }
 .logo-addr {
   font-size: .72rem;
   font-weight: 400;
