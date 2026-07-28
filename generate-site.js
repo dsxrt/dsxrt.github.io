@@ -608,14 +608,11 @@ function main() {
     <div class="header-inner">
         <a href="${GITHUB_PAGES_URL || '#'}" class="logo">
             ${meta.siteLogo ? `<div class="logo-icon"><img src="${esc(fixImg(meta.siteLogo, siteUrl))}" alt="${esc(siteName)}"></div>` : ''}
-            <div class="logo-text-wrap">
-                <a href="${GITHUB_PAGES_URL || '#'}" class="logo">
-                    <span class="logo-title">${esc(siteName)}</span>
-                    <span class="logo-addr">新商城地址：</span>
-                </a>
-                <a href="${siteUrl}" target="_blank" rel="noopener" class="logo">
-                    <span class="logo-addr">${esc(siteUrl)}</span>
-                </a>
+            <div class="logo-text-wrap"><a href="${GITHUB_PAGES_URL || '#'}" class="logo"></a><a href="${GITHUB_PAGES_URL || '#'}" class="logo">
+                <span class="logo-title">${esc(siteName)}</span>
+                <span class="logo-addr">新商城地址：</span></a><a href="${siteUrl}" target="_blank" rel="noopener" class="logo">
+    <span class="logo-addr">${esc(siteUrl)}</span>
+</a>
             </div>
         </a>
         <nav class="nav-links">
