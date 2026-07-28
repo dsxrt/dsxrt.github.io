@@ -98,6 +98,7 @@ img { max-width: 100%; height: auto; display: block; }
 .logo {
   font-size: 1.1rem; font-weight: 700; letter-spacing: -0.03em;
   display: flex; align-items: center;
+  margin-right: 10px;
 }
 .logo-icon {
   height: 44px; width: auto; border-radius: 10px;
@@ -106,7 +107,7 @@ img { max-width: 100%; height: auto; display: block; }
   margin-right: 10px;
 }
 .logo-icon img { height: 44px; width: auto; object-fit: contain; display: block; }
-.logo-text-wrap { display: flex; }
+.logo-text-wrap { display: flex; margin-right: auto; }
 .logo-title { white-space: nowrap; line-height: 1.2; }
 .logo-addr {
   font-size: .72rem;
@@ -608,13 +609,11 @@ function main() {
     <div class="header-inner">
         <a href="${GITHUB_PAGES_URL || '#'}" class="logo">
             ${meta.siteLogo ? `<div class="logo-icon"><img src="${esc(fixImg(meta.siteLogo, siteUrl))}" alt="${esc(siteName)}"></div>` : ''}
-            <div class="logo-text-wrap"><a href="${GITHUB_PAGES_URL || '#'}" class="logo"></a><a href="${GITHUB_PAGES_URL || '#'}" class="logo">
-                <span class="logo-title">${esc(siteName)}</span>
-                <span class="logo-addr">新商城地址：</span></a><a href="${siteUrl}" target="_blank" rel="noopener" class="logo">
-    <span class="logo-addr">${esc(siteUrl)}</span>
-</a>
-            </div>
         </a>
+        <div class="logo-text-wrap">
+            <span class="logo-title">${esc(siteName)}</span>
+            <span class="logo-addr">新商城地址：<a href="${siteUrl}" target="_blank" rel="noopener">${esc(siteUrl)}</a></span>
+        </div>
         <nav class="nav-links">
             <a href="#products">商品</a>
             <a href="#features">优势</a>
