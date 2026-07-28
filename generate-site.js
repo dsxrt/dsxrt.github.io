@@ -97,12 +97,13 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .logo {
   font-size: 1.1rem; font-weight: 700; letter-spacing: -0.03em;
-  display: flex; align-items: center; gap: 10px;
+  display: flex; align-items: center;
 }
 .logo-icon {
   height: 44px; width: auto; border-radius: 10px;
   overflow: visible; flex-shrink: 0;
   display: flex; align-items: center;
+  margin-right: 10px;
 }
 .logo-icon img { height: 44px; width: auto; object-fit: contain; display: block; }
 .logo-text-wrap { display: flex; flex-direction: column; }
